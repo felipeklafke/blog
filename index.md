@@ -1,5 +1,5 @@
 ---
-footer: layout_cabecalho_post.html
+pagefooter: layout_cabecalho_post.md
 ---
 
 {% for post in site.posts %}
