@@ -41,6 +41,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
