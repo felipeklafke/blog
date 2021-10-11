@@ -1,6 +1,7 @@
 ---
 title: "Primeiro Post"
 layout: teste
+autor: "felipe"
 ---
 
 
