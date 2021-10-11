@@ -45,7 +45,7 @@
         
         <h1>{{page.title}}</h1>
 {% if page.autor and page.datahora %}
-        <h5>Autor: {{ page.autor }} - Data {{ page.datahora }}</h5>
+        <h5>Autor: {{ page.autor }} - Data {{ page.datahora | date: "%Y-%m-%d %H:%M" }}</h5>
 {% endif %}
           </header>
         <main>
