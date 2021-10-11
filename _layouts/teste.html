@@ -11,16 +11,14 @@ layoutfooter: layout_cabecalho_post.md
   </head>
   <body>
     <nav>
-      <a href="/">Home</a>   
-      {{ site.testefooter }}
-      {{ layout.layoutfooter }}
+      <a href="/">Home</a>      
     </nav>
     <h1>{{ page.title }}</h1>
     <section>
       {{ content }}
     </section>
     <footer>
-      {% include layout.layoutfooter %}
+      {% include layout_cabecalho_post.md %}
     </footer>
   </body>
 </html>
