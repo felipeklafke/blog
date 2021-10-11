@@ -1,5 +1,6 @@
 ---
 pagefooter: layout_cabecalho_post.md
+title: "Arcabouço"
 ---
 
 {% for post in site.posts %}
