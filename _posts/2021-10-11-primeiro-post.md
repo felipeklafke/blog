@@ -1,5 +1,5 @@
 ---
-title: "primeiro post"
+title: "Primeiro Post"
 ---
 
 
