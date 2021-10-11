@@ -48,6 +48,16 @@
         <h5>Autor: {{ page.autor }} - Data {{ page.datahora | date: "%d/%m/%Y %H:%M" }}</h5>
 {% endif %}
           </header>
+        <div>
+          {% if page.tags %}
+          <ul>
+            
+{% for tag in page.tags %}
+<li>{{tag}}</li>
+{% endfor %}
+</ul>
+          {% endif %}
+        </div>
         <section id="main_content">
 {{ content }}
         </section>
